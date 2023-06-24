@@ -1,0 +1,185 @@
+body{
+	background-color: #CCCCCC;
+	width: 100%;
+	height: 100%;
+}
+.atas{
+	position: absolute;
+	top: 80px;
+	left: 0px;
+	background-color: white;
+	height: 500px;
+	width: 100%;
+}
+.atas .bc{
+	width: 100%;
+	height: 60%;
+}
+
+.atas .bc .deskripsi{
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	background-color: white;
+	width: 70%;
+	height: 200px;
+}
+.atas .bc .deskripsi h1{
+	font-family: archivo;
+	position: absolute;
+	top: -5%;
+}
+.atas .bc .deskripsi p{
+	font-family: roboto;
+	position: absolute;
+	text-align: justify;
+	top: 50px;
+}
+.atas .bc .foto {
+	background-color: white;
+	position: relative;
+	left: 100px;
+	top: -100px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+.kanan{
+	position: absolute;
+	border-radius: 0px 20px 0px 0px;
+	top: 620px;
+	left: 0px;
+	background-color: white;
+	height: 400px;
+	width: 25%;
+}
+.kanan .info {
+	position: absolute;
+	background-color: white;
+	left: 10%;
+	width: 80%;
+	height: 90%;
+}
+.kanan .info h2{
+	margin-bottom: 20px;
+	font-family: archivo;
+}
+.kanan .info p{
+	font-family: roboto;
+	text-align: justify;
+}
+.bawah{
+	position: absolute;
+	border-radius: 20px 0px 0px 0px;
+	top: 620px;
+	left: 375px;
+	background-color: white;
+	height: 400px;
+	width: 974px;
+}
+.bawah .projek{
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	width: 97%;
+	height: 90%;
+}
+.bawah .projek h2{
+	font-family: archivo;
+}
+.bawah .projek .infoprojek{
+	position: absolute;
+	overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+	height: 85%;
+	bottom: -5%;
+	left: 0%;
+}
+.bawah .projek .infoprojek .gambar{
+	width: 300px;
+	height: 300px;
+	margin-left: 20px;
+}
+.topbar{
+	background-color: white;
+	position: fixed;
+	left: 0%;
+	top: 0px;
+	width: 100%;
+	height: 80px;
+}
+.topbar .logo{
+	background-color: white;
+	position: fixed;
+	height:50px;
+	width: 90px;
+	top: 15px;
+	left: 20px;
+}
+.tombol-buka{
+	position: fixed;
+	bottom: 0px;
+	cursor: pointer;
+	left: 50px;
+	border-radius: 20px 20px 0px 0px;
+	background-color: #FFE708;
+	width: 20%;
+	font-size: 30px;
+	height: 50px;
+	border-color: transparent;
+	text-align: center;
+	font-family: roboto;
+}
+.tombol-buka:hover{
+	background-color: #d1bd00;
+}
+.tombol-tutup{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+}
+.fungsipesan{
+	display: none;
+}
+.area-pesan{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: white;
+	height: 100%;
+	width: 40%;
+}
+.pesan{
+	position: fixed;
+	color: white;
+	font-size: 20px;
+	left: 20px;
+	bottom: 20px;
+	background-color: #CCCCCC;
+	width: 30%;
+	height: 5%;
+	border-radius: 20px ;
+}
+textarea{
+	border: none;
+    background-color: transparent;
+    resize: none;
+    overflow: auto;
+    outline: none;
+}
+.area-pesan .kirimp{
+	background-color: transparent;
+	border: transparent;
+	cursor: pointer;
+	position: fixed;
+	height: 40px;
+	width: 40px;
+	bottom: 20px;
+	left: 470px;
+}

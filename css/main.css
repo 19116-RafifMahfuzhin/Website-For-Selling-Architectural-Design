@@ -1,0 +1,387 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+
+}
+
+body{
+	background-color: #cccccc;
+}
+
+
+/*pilihtransaksi*/
+
+.pilihtransaksi{
+	width: 98%;
+	height: 480px;
+	margin: 0 auto;
+}
+
+.pilihtransaksi .kiri{
+	width: 60%;
+	height: 383px;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+
+
+.pilihtransaksi .kanan{
+	right: 5px;
+	width: 35%;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: right;
+}
+
+.pilihtransaksi .kanan table{
+	font-size: 20px;
+	width: 100%;
+}
+
+ .pilihtransaksi .kanan table tr td{
+	padding: 2px 1px;
+	margin-top:10px;
+	float: center;
+}
+
+ .pilihtransaksi .kanan table tr td input{
+	border-radius: 50px;
+	display: inline-block;
+	width: 93%;
+	height: 20%;
+	font-size: 18px;
+	padding: 0 2px;
+	background-color: #cccccc;
+}
+
+.pilihtransaksi .kanan #btn{
+	background-color: orange;
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 40px;
+	width: 97%;
+	float: center;
+	margin-top:10px;
+	margin-left:3px;
+	border-radius:30px;
+}
+
+.pilihtransaksi .kanan #btn:hover{
+	background-color: #cccccc;
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 40px;
+	width: 97%;
+	float: center;
+	margin-top:10px;
+	margin-left:3px;
+	border-radius:30px;
+}
+
+.footerpilihtransaksi{
+	width: 98%;
+	height: 200px;
+	background-color: white;
+	margin:0 auto;
+	justify-content: center;
+	border-radius: 15px;
+}
+
+.footerpilihtransaksi .kakikiri{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	float: left;
+	margin-top: 23px;
+	margin-left: 50px;
+	justify-content: center;
+	position: absolute;
+	display: inline-block;
+}
+
+.pilihtransaksi .kiri h1{
+	margin-left: 30px; 
+	font-size: 40px;
+	margin-top: 20px; 
+}
+
+ .pilihtransaksi .kiri .pilihbank{
+	position: absolute;
+	height: 40%;
+	width: 55%;
+	font-size: 35px;
+	left: 53px;
+}
+
+.tulisan{
+	 padding-left: 50px; width: 80%;
+}
+
+.logobank{
+	 text-align:right;
+	 width: 80px;
+	 height: 30px;
+}
+
+.radio{
+	width: 30px; height: 30px;
+}
+
+#btn2{
+	background-color: orange; 
+	display: inline-block; 
+	padding: 1px 0; 
+	font-size: 35px; 
+	width: 15%; 
+	float: right; 
+	margin-top:265px; 
+	margin-right:58px; 
+	border-radius:30px;
+}
+
+/*Detail Desain*/
+
+body .detaildesain{
+	width: 98%;
+	height: 440px;
+	margin: 0 auto;
+}
+
+body .detaildesain .kiri{
+	width: 60%;
+	height: 383px;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+
+body .detaildesain .kiri label{
+	color: #cccccc;
+	height: 60px;
+	width: 250px;
+	position: absolute;
+	font-size: 400px;
+	justify-content: center;
+	text-align: center;
+	margin:auto;
+	left:290px;
+}
+
+body .detaildesain .kiri label:hover{
+	color: #ff2342;
+	height: 60px;
+	width: 250px;
+	position: absolute;
+	font-size: 400px;
+	justify-content: center;
+	text-align: center;
+	margin:auto;
+	left:290px;
+}
+
+
+
+body .detaildesain .kanan{
+	right: 5px;
+	width: 35%;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: right;
+}
+
+body .detaildesain .kanan table{
+	font-size: 20px;
+	width: 100%;
+}
+
+body .detaildesain .kanan table tr td{
+	padding: 2px 1px;
+	margin-top:10px;
+	float: center;
+}
+
+body .detaildesain .kanan table tr td input{
+	border-radius: 50px;
+	display: inline-block;
+	width: 93%;
+	height: 20%;
+	font-size: 18px;
+	padding: 0 2px;
+	background-color: #cccccc;
+}
+
+body .detaildesain .kanan #btn{
+	background-color: orange;
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 40px;
+	width: 97%;
+	float: center;
+	margin-top:10px;
+	margin-left:3px;
+	border-radius:30px;
+}
+
+body .detaildesain .kanan #btn:hover{
+	background-color: #cccccc;
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 40px;
+	width: 97%;
+	float: center;
+	margin-top:10px;
+	margin-left:3px;
+	border-radius:30px;
+}
+
+.footerdetaildesain{
+	width: 98%;
+	height: 200px;
+	background-color: white;
+	margin:0 auto;
+	justify-content: center;
+	border-radius: 15px;
+}
+
+.footerdetaildesain .kakikiri{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+	justify-content: center;
+	position: absolute;
+	display: inline-block;
+}
+
+/*Daftar Desain*/
+
+body .daftardesain{
+	width: 98%;
+	height: 480px;
+	margin: 0 auto;
+}
+
+body .daftardesain .kiri{
+	width: 60%;
+	height: 408px;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+input[type="file"]{
+	display: none;
+}
+
+body .daftardesain .kiri label{
+	color: #cccccc;
+	height: 60px;
+	width: 250px;
+	position: absolute;
+	font-size: 400px;
+	justify-content: center;
+	text-align: center;
+	margin:auto;
+	left:290px;
+}
+
+body .daftardesain .kiri label:hover{
+	color: #ff2342;
+	height: 60px;
+	width: 250px;
+	position: absolute;
+	font-size: 400px;
+	justify-content: center;
+	text-align: center;
+	margin:auto;
+	left:290px;
+}
+
+
+
+body .daftardesain .kanan{
+	right: 5px;
+	width: 35%;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: right;
+}
+
+body .daftardesain .kanan table{
+	font-size: 20px;
+	width: 100%;
+	color: black;
+}
+
+body .daftardesain .kanan table tr td{
+	padding: 2px 1px;
+	margin-top:10px;
+	float: center;
+}
+
+body .daftardesain .kanan table tr td input{
+	border-radius: 50px;
+	display: inline-block;
+	width: 93%;
+	height: 20%;
+	font-size: 18px;
+	padding: 0 2px;
+	background-color: #cccccc;
+}
+
+body .daftardesain .kanan #btn{
+	background-color: orange;
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 40px;
+	width: 97%;
+	float: center;
+	margin-top:10px;
+	margin-bottom: 5px;
+	margin-left:3px;
+	border-radius:30px;
+}
+
+body .daftardesain .kanan #btn:hover{
+	background-color: #cccccc;
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 40px;
+	width: 97%;
+	float: center;
+	margin-top:10px;
+	margin-bottom: 5px;
+	margin-left:3px;
+	border-radius:30px;
+}
+
+

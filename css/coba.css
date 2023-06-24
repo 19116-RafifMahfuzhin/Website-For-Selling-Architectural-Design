@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+    width: 100%;
+}
+.medsos { 
+    background-color:   #fcfcfc;
+    border: 1px solid;
+    position: relative;
+    left: 10px;
+    width: 1300px;
+    height: 100px;
+}
+.medsos ul li{
+	display: inline-block;
+	color:  #000000;
+
+}
+.container { 
+	margin:0 auto ;
+}
+.pilihan h1{
+	position: relative;
+	text-align: center;
+	top: 50px;
+	width: 100%;
+}
+.mainpage{
+	position: relative;
+	top: 90px;
+}
+
+.home{
+	position: relative;
+	right: 90px;
+	top: 45px;
+}
+.jenisjasa{
+	position: relative;
+	left: 400px;
+}
+.shop{
+	position: relative;
+	left: 900px;
+	bottom: 45px;
+}
+.cari{
+	position: relative;
+	left: 1000px;
+	bottom: 90px;
+
+}
+.masuk{
+	position: relative;
+	left: 1100px;
+	bottom: 135px;
+}
+.btn{
+	position: relative;
+	left: 75px;
+	top:300px;
+	width: 150px;
+	height: 50px;
+}
+.kanan{
+	position: absolute;
+	left: 150px;
+	border-radius: 50px;
+	background-color: #fcfcfc;
+	width: 300px;
+	height: 450px;
+}
+.kanan h1{
+	text-align: center;
+	position: relative;
+	top: 65%;
+}
+.tengah{
+	position: absolute;
+	border-radius: 50px;
+	left: 550px;
+	background-color: #fcfcfc;
+	width: 300px;
+	height: 450px;
+}
+.tengah h1{
+	text-align: center;
+	position: relative;
+	top: 65%;
+}
+.kiri{
+	position: absolute;
+	border-radius: 50px;
+	left: 950px;
+	background-color: #fcfcfc;
+	width: 300px;
+	height: 450px;
+}
+.kiri h1{
+	text-align: center;
+	position: relative;
+	top: 65%;
+}

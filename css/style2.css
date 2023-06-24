@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+
+}
+
+body{
+	background-color: pink;
+}
+
+
+header .container{
+	width: 	90%;
+	margin: 0 auto;
+	
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+header{
+	background-color:white;
+	border-bottom:1px solid;
+	margin-bottom: 10px;
+}
+
+header h1{
+	float: left;
+	margin-top: 17px;
+	background-image:url('logo.png');
+	background-size: cover;
+	height: 50px;
+	width: 150px;
+}
+
+header h1 a{
+	font-size: 400px;
+	padding: 28px 75px;
+	display:inline-block;
+	text-align: center;
+	justify-content: center;
+
+}
+
+header ul{
+	float:right;
+	margin-top: 17px;
+}
+
+header ul select{
+	font-size: 25px;
+	display: inline-block;
+	padding: 0 20px;
+	height: 55px;
+	border-radius: 50px;
+	border:0;
+	color: pink;
+}
+
+header ul select:hover{
+	background-color: #C0C0C0;
+	border-radius: 50px;
+	color: white;
+}
+
+header ul select option{
+	font-size: 25px;
+	padding: 11px 20px;
+	display:inline-block;
+	color: pink;
+}
+
+header ul li{
+	display: inline-block;
+	padding: 0 20px;
+}
+
+header ul li a{
+	font-size: 25px;
+	padding: 11px 20px;
+	display:inline-block;
+	color: pink;
+}
+
+header ul li a:hover{
+	background-color: #C0C0C0;
+	border-radius: 50px;
+	color: white;
+}
+
+.active{
+	background-color: #C0C0C0;
+	border-radius: 50px;
+	color: white;
+}
+
+body .kotak{
+	width: 98%;
+	height: 480px;
+	margin: 0 auto;
+}
+
+body .kotak .kiri{
+	width: 60%;
+	height: 408px;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+input[type="file"]{
+	display: none;
+}
+
+body .kotak .kiri label{
+	color: pink;
+	height: 60px;
+	width: 250px;
+	position: absolute;
+	font-size: 400px;
+	justify-content: center;
+	text-align: center;
+	margin:auto;
+	left:290px;
+}
+
+body .kotak .kiri label:hover{
+	color: #ff2342;
+	height: 60px;
+	width: 250px;
+	position: absolute;
+	font-size: 400px;
+	justify-content: center;
+	text-align: center;
+	margin:auto;
+	left:290px;
+}
+
+
+
+body .kotak .kanan{
+	right: 5px;
+	width: 35%;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: right;
+}
+
+body .kotak .kanan table{
+	font-size: 20px;
+	width: 100%;
+	color: pink;
+}
+
+body .kotak .kanan table tr td{
+	padding: 2px 1px;
+	margin-top:10px;
+	float: center;
+}
+
+body .kotak .kanan table tr td input{
+	border-radius: 50px;
+	display: inline-block;
+	width: 93%;
+	height: 20%;
+	font-size: 18px;
+	padding: 0 2px;
+	background-color: pink;
+}
+
+body .kotak .kanan #btn{
+	background-color: orange;
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 40px;
+	width: 97%;
+	float: center;
+	margin-top:10px;
+	margin-bottom: 5px;
+	margin-left:3px;
+	border-radius:30px;
+}
+
+body .kotak .kanan #btn:hover{
+	background-color: pink;
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 40px;
+	width: 97%;
+	float: center;
+	margin-top:10px;
+	margin-bottom: 5px;
+	margin-left:3px;
+	border-radius:30px;
+}
+
+

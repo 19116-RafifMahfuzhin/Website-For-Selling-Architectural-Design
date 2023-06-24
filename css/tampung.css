@@ -1,0 +1,376 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+
+}
+
+body{
+	background-color: #cccccc;
+}
+
+
+
+/*NAVBAR Sama*/
+
+
+.navbar{
+	background-color: white;
+	position: fixed;
+	left: 0%;
+	top: 0px;
+	width: 100%;
+	height: 80px; 
+	font-family: archivo;
+}
+
+.logo{
+	background-color: white;
+	position: fixed;
+	height:50px;
+	width: 90px;
+	top: 15px;
+	left: 20px;
+}
+
+.formCari{
+	display: none;
+}
+
+#textCari{
+	position:fixed;
+	left:740px;
+	top:20px; 
+	font-size:25px; 
+	width: 280px;
+	height: 40px; 
+	background-color: #cccccc; 
+	border-radius: 30px; 
+	padding-right: 50px; 
+	padding-left: 15px;
+}
+
+.imgCancel{
+	width: 60%; 
+	height: 60%;
+	padding-top: 3px;
+}
+
+
+.imgCart{
+	background-color: white;
+	position: fixed;
+	height:50px;
+	width: 50px;
+	top: 15px;
+	left: 1000px;
+}
+
+
+.btnLogout{
+	text-decoration: none;
+	color:black;
+	background-color: white;
+	position: fixed;
+	height:38px;
+	width: 130px;
+	top: 16px;
+	left: 1201px;
+	font-size:26px; 
+	border-radius: 30px;  
+	border:1px solid;
+	justify-content: center; 
+	text-align: center; 
+	padding-top:10px;
+	background-color: #cccccc;
+}
+
+.jenisjasa2{
+	display: none;
+}
+
+/*NAVBAR VERSI RAFIF*/
+
+
+.imgSearch{
+	background-color: white;
+	position: fixed;
+	height:50px;
+	width: 50px;
+	top: 15px;
+	left:1100px;
+}
+
+.btnCancel1{
+	width: 35px; 
+	height: 35px; 
+	display:none; 
+	background-color:#cccccc; 
+	border: none; 
+	position: fixed;
+	left: 1040px; 
+	top: 24px;
+}
+
+.imgCari{
+	background-color: white;
+	position: fixed;
+	height:50px;
+	width: 50px;
+	top: 15px;
+	left:1100px;
+}
+
+.navbar .jenisjasa1{
+	
+}
+
+
+
+/*NAVBAR VERSI JOKO*/
+
+
+.btnSearch2{
+	background-color:transparent; 
+	border:none; 
+	position: fixed;
+	height:54px;
+	width: 60px;
+	top: 14px;
+	left:1100px;
+}
+
+
+.imgSearch2{
+	background-color: transparent;
+	width: 100%; 
+	height: 100%;
+}
+
+
+
+.btnCancel2{
+	background-color:transparent; 
+	border:none;  
+	width: 35px; 
+	height: 35px; 
+	display:none; 
+	border: none; 
+	position: fixed;
+	left: 1040px; 
+	top: 24px;
+}
+
+.btnCari{
+	background-color: transparent; 
+	border: none;
+	position: fixed; 
+	width: 60px;
+	height:54px;
+	top: 14px;
+	left:1100px;
+}
+
+.imgCari2{
+	background-color: transparent;
+	width: 100%; 
+	height: 100%;
+}
+
+
+
+.jenisjasa3{
+	text-decoration: none; 
+	color:black;
+	background-color: white;
+	position: fixed;
+	height:38px;
+	width: 250px;
+	top: 16px;
+	left: 700px; 
+	font-size:26px; 
+	border-radius: 30px;  
+	border:1px solid;
+	justify-content: center; 
+	text-align: center; 
+	padding-top:10px;
+	background-color: #cccccc;
+}
+
+
+/*DETAIL DESAIN*/
+
+
+
+.detaildesain{
+	width: 98%;
+	height: 440px;
+	margin: 0 auto;
+	margin-top:100px;
+}
+
+.detaildesain .kiri{
+	width: 60%;
+	height: 383px;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+.imgDesain{
+	background-size: cover; 
+	border-radius: 10px;
+}
+
+.detaildesain .kiri2{
+	width: 60%;
+	height: 383px;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: left;display:none;
+}
+
+.judulKiri2{
+	margin-left: 30px; 
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+.pilihbank{
+	position: absolute;
+	height: 40%;
+	width: 55%;
+	font-size: 35px;
+	left: 53px;
+}
+
+.tulisan{
+	 padding-left: 50px; width: 80%;
+}
+
+.logobank{
+	 text-align:right;
+	 width: 80px;
+	 height: 30px;
+}
+
+.radio{
+	width: 30px; height: 30px;
+}
+
+#btn2{
+	background-color: orange; 
+	display: inline-block; 
+	padding: 1px 0; 
+	font-size: 35px; 
+	width: 15%; 
+	float: right; 
+	margin-top:265px; 
+	margin-right:58px; 
+	border-radius:30px;
+}
+
+.kananDetail{
+	right: 5px;
+	width: 35%;
+	background-color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	float: right;
+}
+
+.tableDetail{
+	font-size: 20px;
+	width: 100%;
+}
+
+.tableDetail tr td{
+	padding: 2px 1px;
+	margin-top:10px;
+	float: center;
+}
+
+.textData{
+	text-align: right;
+}
+
+.tableDetail tr td input{
+	border-radius: 50px;
+	display: inline-block;
+	width: 93%;
+	height: 20%;
+	font-size: 18px;
+	padding: 0 2px;
+	background-color: #cccccc;
+}
+
+#btn{
+	background-color: orange;
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 40px;
+	width: 97%;
+	float: center;
+	margin-top:10px;
+	margin-left:3px;
+	border-radius:30px;
+}
+
+#btn:hover{
+	background-color: #cccccc;
+	display: inline-block;
+	padding: 1px 0;
+	font-size: 40px;
+	width: 97%;
+	float: center;
+	margin-top:10px;
+	margin-left:3px;
+	border-radius:30px;
+}
+
+.footerDetail{
+	width: 98%;
+	height: 200px;
+	background-color: white;
+	margin:0 auto;
+	justify-content: center;
+	border-radius: 15px;
+}
+.kakikiriDetail{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+	justify-content: center;
+	position: absolute;
+	display: inline-block;
+}
+.logoDetail{
+	border-radius:100px; 
+	justify-content:center;
+}
+
+.deskripsiDetail{
+	left:30px;  
+	margin-top:55px; 
+	margin-right: 35px;
+	float: right; 
+	width: 80%; 
+	height: 100%; 
+	text-align: justify;	
+	justify-content: center;
+}

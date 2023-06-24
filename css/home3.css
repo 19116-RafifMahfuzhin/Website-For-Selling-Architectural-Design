@@ -1,0 +1,162 @@
+body{
+	background-color:#cccccc;
+}
+
+.navbar{
+	background-color: white;
+	position: fixed;
+	left: 0%;
+	top: 0px;
+	width: 100%;
+	height: 80px; 
+	font-family: archivo;
+}
+
+.logo{
+	background-color: white;
+	position: fixed;
+	height:50px;
+	width: 90px;
+	top: 15px;
+	left: 20px;
+}
+
+.jenisjasa1{
+	text-decoration: none; 
+	color:black;
+	position: fixed;
+	height:38px;
+	width: 250px;
+	top: 16px;
+	left: 700px; 
+	font-size:26px; 
+	border-radius: 30px; 
+	border:1px solid;
+	justify-content: center; 
+	text-align: center; 
+	padding-top:10px;
+	background-color: #cccccc;
+}
+
+.jenisjasa2{
+	display: none;
+}
+
+#formCari{
+	display: none;
+}
+
+#textCari{
+	position:fixed;
+	left:740px;
+	top:20px; 
+	font-size:25px; 
+	width: 280px; 
+	height: 40px; 
+	background-color: #cccccc; 
+	border-radius: 30px;
+	padding-right: 50px; 
+	padding-left: 15px;
+}
+
+#btnSearch{
+	background-color:transparent; 
+	border:none; 
+	position: fixed;
+	height:54px;
+	width: 60px;
+	top: 14px;
+	left:1100px;
+}
+
+.imgSearch{
+	background-color: transparent;
+	width: 100%; 
+	height: 100%;
+}
+
+#btnCancel{
+	background-color:transparent; 
+	border:none;  
+	width: 35px; 
+	height: 35px; 
+	display:none; 
+	border: none; 
+	position: fixed;
+	left: 1040px; 
+	top: 24px;
+}
+
+.imgCancel{
+	width: 60%; 
+	height: 60%; 
+	padding-top: 3px;
+}
+
+.imgCart{
+	background-color: white;
+	position: fixed;
+	height:50px;
+	width: 50px;
+	top: 15px;
+	left: 1000px;
+}
+
+#btnCari{
+	background-color: transparent; 
+	border: none;
+	position: fixed; 
+	width: 60px;
+	height:54px;
+	top: 14px;
+	left:1100px;
+}
+
+.imgCari{
+	background-color: transparent;
+	width: 100%; 
+	height: 100%;
+}
+
+.btnLogout{
+	text-decoration: none; 
+	color:black;
+	background-color: white;
+	position: fixed;
+	height:38px;
+	width: 130px;
+	top: 16px;
+	left: 1201px; 
+	font-size:26px; 
+	border-radius: 30px;  
+	border:1px solid;
+	justify-content: center; 
+	text-align: center; 
+	padding-top:10px;
+	background-color: #cccccc;
+}
+
+.home3{
+	position:absolute;  
+	margin-top:100px; 
+	left:0;
+	background-color: white;
+	width:97%; 
+	padding-left: 40px;
+}
+
+.judulCari{
+	margin-left:40px; font-size: 25px;
+}
+
+.kiri{
+	margin-left:40px; margin-bottom: 30px;
+}
+
+.imgResult{
+	width: 200px; height: 200px;background-size: cover; border-radius: 10px;
+}
+
+.textData{
+	font-size: 25px;
+}
